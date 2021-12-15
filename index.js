@@ -104,10 +104,10 @@ console.log(seb)
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. The first is that when using 'this' in a global scope it refers to the window (basically what makes up javascript) and is called global binding
+  2. The second is implicit binding and this is when you reference 'this' inside of a method in an object, it references whatever is left to the dot when the method is called
+  3. The third is new binding, this is when you reference 'this' in a contrustor function so that it references whatever new object you create when calling the function. (also references whatever is to the left of the dot when it's called)
+  4. The fourth is explicit binding, this is when you use .call or .apply to sort of bind two objects together and when 'this' is referenced when they're binded by .call it references whatever the .call is referencing
 */
 
 
